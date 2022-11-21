@@ -1,0 +1,14 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  .card h1{
+    color: rgb(81, 81, 255);
+    font-family: cursive;
+  }
+.card p{
+    text-align: justify;
+    font-family: cursive;
+}
