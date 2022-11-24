@@ -1,7 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Hero from '../components/Hero'
-import img01 from '../public/profile1.png'
+import SocialIconsBar from '../components/SocialIconsBar'
 
 export default function Home() {
   return (
@@ -11,6 +10,7 @@ export default function Home() {
         <meta name='keywords' content='programming,game development, web development'></meta>
       </Head>
       <Hero></Hero>
+      <SocialIconsBar></SocialIconsBar>
     </div>
   )
 }
