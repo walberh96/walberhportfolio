@@ -4,8 +4,6 @@ import ButtonGroup from '@mui/material/ButtonGroup';
 import Link from 'next/link';
 
 const Nav = () => {
-
-
   return (
     <nav className={navStyles.nav}>
         <ButtonGroup>
@@ -17,6 +15,9 @@ const Nav = () => {
           </Link>
           <Link href={'/skills'} passHref >
           <Button variant='outlined'>Skills</Button>
+          </Link>
+          <Link href={'/accomplishments'} passHref >
+          <Button variant='outlined'>Accomplishments</Button>
           </Link>
         </ButtonGroup>
     </nav>
