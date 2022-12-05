@@ -1,6 +1,11 @@
 import Accomplishment from '../components/Accomplishment'
 import style from '../styles/Accomplishment.module.css'
-import GoogleIcon from '@mui/icons-material/Google';
+import Image from "next/image"
+import iGoogle from '../public/logos/google.svg'
+import iSololearn from '../public/logos/sololearn.svg'
+import iPlatzi from '../public/logos/platzi.svg'
+import iUdemy from '../public/logos/udemy.svg'
+
 
 
 const accomplishments = () => {
@@ -8,31 +13,33 @@ const accomplishments = () => {
     <div className={style.main}>
       <div>
         <h1>Platzi</h1>
-        <Accomplishment name={'Curso Básico de Python'} credID={'7aec5837-761d-4ecd-8a11-27e56c37aec9'} CredURL= {'https://platzi.com/p/walberh96/curso/1937-python-basico/diploma/detalle/'}></Accomplishment>
-        <Accomplishment name={'Curso de C# para Videojuegos'}></Accomplishment>
-        <Accomplishment name={'Curso de Fundamentos para el Desarrollo de Videojuegos Multijugador Online'}></Accomplishment>
-        <Accomplishment name={'Curso de Introducción a la Programación de Videojuegos 3D con Unity'}></Accomplishment>
-        <Accomplishment name={'Curso de Programación de Videojuegos 2D con Unity'}></Accomplishment>
-        <Accomplishment name={'Curso Práctico de Videojuegos Multijugador Online con Unity y Mirror'}></Accomplishment>
-        <Accomplishment name={'Curso Profesional de Diseño de Videojuegos'}></Accomplishment>
-        <Accomplishment name={'Curso Profesional de Git y GitHub'}></Accomplishment>
-        <Accomplishment name={'Curso Profesional de Python'}></Accomplishment>
+        <Image priority={true} src={iPlatzi} alt="Williams Tamayo" width={70} height={70}></Image>
+        <Accomplishment name={'Curso Básico de Python'} CredURL= {'../platzi/diploma-python-basico.png'}></Accomplishment>
+        <Accomplishment name={'Curso de C# para Videojuegos'} CredURL={'/'}></Accomplishment>
+        <Accomplishment name={'Curso de Fundamentos para el Desarrollo de Videojuegos Multijugador Online'} CredURL={'/'}></Accomplishment>
+        <Accomplishment name={'Curso de Introducción a la Programación de Videojuegos 3D con Unity'} CredURL={'/'}></Accomplishment>
+        <Accomplishment name={'Curso de Programación de Videojuegos 2D con Unity'} CredURL={'/'}></Accomplishment>
+        <Accomplishment name={'Curso Práctico de Videojuegos Multijugador Online con Unity y Mirror'} CredURL={'/'}></Accomplishment>
+        <Accomplishment name={'Curso Profesional de Diseño de Videojuegos'} CredURL={'/'}></Accomplishment>
+        <Accomplishment name={'Curso Profesional de Git y GitHub'} CredURL={'/'}></Accomplishment>
+        <Accomplishment name={'Curso Profesional de Python'} CredURL={'/'}></Accomplishment>
       </div>
       <div>
         <h1>Udemy</h1>
-        <Accomplishment name={'Máster en Programación de Videojuegos con Unity® 2021 y C#'}></Accomplishment>
+        <Image priority={true} src={iUdemy} alt="Williams Tamayo" width={45} height={45} ></Image>
+        <Accomplishment name={'Máster en Programación de Videojuegos con Unity® 2021 y C#'} CredURL={'/'}></Accomplishment>
       </div>
       <div>
         <h1>Sololearn</h1>
-        <Accomplishment name={'Java'}></Accomplishment>
-        <Accomplishment name={'C#'}></Accomplishment>
+        <Image priority={true} src={iSololearn} alt="Williams Tamayo" width={50} height={50} ></Image>
+        <Accomplishment name={'Java'} CredURL={'/'}></Accomplishment>
+        <Accomplishment name={'C#'} CredURL={'/'}></Accomplishment>
       </div>
       <div>
         <h1>Google</h1>
-        <GoogleIcon></GoogleIcon>
-        <Accomplishment name={'Fundamentals of digital marketing'}></Accomplishment>
-        <Accomplishment name={'Cloud Computing'}></Accomplishment>
-        <Accomplishment name={'Desarrollo de aplicaciones moviles'}></Accomplishment>
+        <Image priority={true} src={iGoogle} alt="Williams Tamayo" width={50} height={50} ></Image>
+        <Accomplishment name={'Fundamentals of digital marketing'} CredURL={'/'}></Accomplishment>
+        <Accomplishment name={'Cloud Computing'} CredURL={'/'}></Accomplishment>
       </div>
     </div>
   )

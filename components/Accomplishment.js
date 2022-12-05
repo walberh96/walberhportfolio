@@ -1,9 +1,13 @@
 import style from '../styles/Accomplishment.module.css'
-
-const Accomplishment = ({name, icon, credID, CredURL}) => {
+import Link from 'next/link' 
+const Accomplishment = ({name,CredURL}) => {
   return (
+    
     <div className={style.main}>
-    <h3>{name}</h3>
+        <Link target={'_blank'} href={CredURL} passHref >
+        <h3>{name}</h3>
+        </Link>
+    
     </div>
   )
 }
