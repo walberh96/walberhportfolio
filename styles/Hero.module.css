@@ -6,11 +6,9 @@
   }
   .card h1{
     color: rgb(81, 81, 255);
-    font-family: cursive;
     font-style: italic;
 }
 .card p{
     text-align: justify;
-    font-family: cursive;
     font-style: italic;
 }
