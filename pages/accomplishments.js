@@ -14,20 +14,21 @@ const accomplishments = () => {
       <div>
         <h1>Platzi</h1>
         <Image priority={true} src={iPlatzi} alt="Williams Tamayo" width={70} height={70}></Image>
-        <Accomplishment name={'Curso Básico de Python'} CredURL= {'../platzi/diploma-python-basico.png'}></Accomplishment>
-        <Accomplishment name={'Curso de C# para Videojuegos'} CredURL={'../platzi/diploma-desarrollo-unity.png'}></Accomplishment>
-        <Accomplishment name={'Curso de Fundamentos para el Desarrollo de Videojuegos Multijugador Online'} CredURL={'../platzi/diploma-videojuegos-multijugador.png'}></Accomplishment>
-        <Accomplishment name={'Curso de Introducción a la Programación de Videojuegos 3D con Unity'} CredURL={'../platzi/diploma-unity-3d.png'}></Accomplishment>
-        <Accomplishment name={'Curso de Programación de Videojuegos 2D con Unity'} CredURL={'../platzi/diploma-unity-2d.png'}></Accomplishment>
-        <Accomplishment name={'Curso Práctico de Videojuegos Multijugador Online con Unity y Mirror'} CredURL={'../platzi/diploma-unity-mirror.png'}></Accomplishment>
-        <Accomplishment name={'Curso Profesional de Diseño de Videojuegos'} CredURL={'../platzi/diploma-profesional-diseno-videojuegos.png'}></Accomplishment>
-        <Accomplishment name={'Curso Profesional de Git y GitHub'} CredURL={'../platzi/diploma-git-github.png'}></Accomplishment>
-        <Accomplishment name={'Curso Profesional de Python'} CredURL={'../platzi/diploma-python-profesional.png'}></Accomplishment>
+        <Accomplishment name={'Basic Python Course'} CredURL= {'../platzi/diploma-python-basico.png'}></Accomplishment>
+        <Accomplishment name={'Python Professional Course'} CredURL={'../platzi/diploma-python-profesional.png'}></Accomplishment>
+        <Accomplishment name={'C# for Video Games Course'} CredURL={'../platzi/diploma-desarrollo-unity.png'}></Accomplishment>
+        <Accomplishment name={'Fundamentals Course for the Development of Online Multiplayer Video Games'} CredURL={'../platzi/diploma-videojuegos-multijugador.png'}></Accomplishment>
+        <Accomplishment name={'Introduction to Programming 3D Video Games with Unity Course'} CredURL={'../platzi/diploma-unity-3d.png'}></Accomplishment>
+        <Accomplishment name={'2D Video Game Programming Course with Unity'} CredURL={'../platzi/diploma-unity-2d.png'}></Accomplishment>
+        <Accomplishment name={'Practical Online Multiplayer Video Games Course with Unity and Mirror'} CredURL={'../platzi/diploma-unity-mirror.png'}></Accomplishment>
+        <Accomplishment name={'Professional Video Game Design Course'} CredURL={'../platzi/diploma-profesional-diseno-videojuegos.png'}></Accomplishment>
+        <Accomplishment name={'Git and GitHub Professional Course'} CredURL={'../platzi/diploma-git-github.png'}></Accomplishment>
+        
       </div>
       <div>
         <h1>Udemy</h1>
         <Image priority={true} src={iUdemy} alt="Williams Tamayo" width={45} height={45} ></Image>
-        <Accomplishment name={'Máster en Programación de Videojuegos con Unity® 2021 y C#'} CredURL={'../udemy/vg.png'}></Accomplishment>
+        <Accomplishment name={'Master in Video Game Programming with Unity® 2021 and C#'} CredURL={'../udemy/vg.png'}></Accomplishment>
       </div>
       <div>
         <h1>Sololearn</h1>
