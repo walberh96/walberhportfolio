@@ -3,6 +3,7 @@
     max-width: 300px;
     margin: auto;
     text-align: center;
+    font-style: italic;
   }
   .card h1{
     color: rgb(81, 81, 255);
