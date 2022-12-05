@@ -3,7 +3,6 @@ import heroStyles from '../styles/Hero.module.css'
 const Experience = () => {
   return (
     <div className={heroStyles.card}>
-        
         <h1>Experience</h1>
         <WorkHistoryIcon></WorkHistoryIcon>
         <p>2019-2021 : Computer Science Teacher.</p>
