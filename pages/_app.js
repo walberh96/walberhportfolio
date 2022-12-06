@@ -1,10 +1,10 @@
 import '../styles/globals.css'
-import Nav from '../components/Nav'
+import NavResp from '../components/NavResp'
 
 function MyApp({ Component, pageProps }) {
   return(
     <>
-      <Nav></Nav>
+      <NavResp></NavResp>
       <Component {...pageProps} />
     </>
     
