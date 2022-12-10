@@ -35,6 +35,7 @@ const accomplishments = () => {
         <Image priority={true} src={iSololearn} alt="Williams Tamayo" width={50} height={50} ></Image>
         <Accomplishment name={'Java'} CredURL={'../sololearn/java.png'}></Accomplishment>
         <Accomplishment name={'C#'} CredURL={'../sololearn/cs.png'}></Accomplishment>
+        <Accomplishment name={'React'} CredURL={'../sololearn/react.png'}></Accomplishment>
       </div>
       <div>
         <h1>Google</h1>
