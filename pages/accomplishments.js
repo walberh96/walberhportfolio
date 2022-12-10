@@ -1,18 +1,17 @@
 import Accomplishment from '../components/Accomplishment'
-import style from '../styles/Accomplishment.module.css'
+import { Box , Typography } from '@mui/material'
 import Image from "next/image"
 import iGoogle from '../public/logos/google.svg'
 import iSololearn from '../public/logos/sololearn.svg'
 import iPlatzi from '../public/logos/platzi.svg'
 import iUdemy from '../public/logos/udemy.svg'
 
-
-
 const accomplishments = () => {
   return (
-    <div className={style.main}>
+    <div>
       <div>
-        <h1>Platzi</h1>
+      <Box justifyContent="center" alignItems="center" display={"flex"}  m={1} sx={{ flexDirection: 'column' }}>
+      <Typography variant="h3" color='#5151ff' gutterBottom fontStyle={"italic"} fontFamily={"cursive"} textAlign="center" >Platzi</Typography>
         <Image priority={true} src={iPlatzi} alt="Williams Tamayo" width={70} height={70}></Image>
         <Accomplishment name={'Basic Python Course'} CredURL= {'../platzi/diploma-python-basico.png'}></Accomplishment>
         <Accomplishment name={'Python Professional Course'} CredURL={'../platzi/diploma-python-profesional.png'}></Accomplishment>
@@ -23,25 +22,32 @@ const accomplishments = () => {
         <Accomplishment name={'Practical Online Multiplayer Video Games Course with Unity and Mirror'} CredURL={'../platzi/diploma-unity-mirror.png'}></Accomplishment>
         <Accomplishment name={'Professional Video Game Design Course'} CredURL={'../platzi/diploma-profesional-diseno-videojuegos.png'}></Accomplishment>
         <Accomplishment name={'Git and GitHub Professional Course'} CredURL={'../platzi/diploma-git-github.png'}></Accomplishment>
-        
+      </Box>
       </div>
+
       <div>
-        <h1>Udemy</h1>
+      <Box justifyContent="center" alignItems="center" display={"flex"}  m={1} sx={{ flexDirection: 'column' }}>
+      <Typography variant="h3" color='#5151ff' gutterBottom fontStyle={"italic"} fontFamily={"cursive"} textAlign="center" >Udemy</Typography>
         <Image priority={true} src={iUdemy} alt="Williams Tamayo" width={45} height={45} ></Image>
         <Accomplishment name={'Master in Video Game Programming with Unity® 2021 and C#'} CredURL={'../udemy/vg.png'}></Accomplishment>
+      </Box>
       </div>
       <div>
-        <h1>Sololearn</h1>
+      <Box justifyContent="center" alignItems="center" display={"flex"}  m={1} sx={{ flexDirection: 'column' }}>
+      <Typography variant="h3" color='#5151ff' gutterBottom fontStyle={"italic"} fontFamily={"cursive"} textAlign="center" >Sololearn</Typography>
         <Image priority={true} src={iSololearn} alt="Williams Tamayo" width={50} height={50} ></Image>
         <Accomplishment name={'Java'} CredURL={'../sololearn/java.png'}></Accomplishment>
         <Accomplishment name={'C#'} CredURL={'../sololearn/cs.png'}></Accomplishment>
         <Accomplishment name={'React'} CredURL={'../sololearn/react.png'}></Accomplishment>
+      </Box>
       </div>
       <div>
-        <h1>Google</h1>
+      <Box justifyContent="center" alignItems="center" display={"flex"}  m={1} sx={{ flexDirection: 'column' }}>
+      <Typography variant="h3" color='#5151ff' gutterBottom fontStyle={"italic"} fontFamily={"cursive"} textAlign="center" >Google</Typography>
         <Image priority={true} src={iGoogle} alt="Williams Tamayo" width={50} height={50} ></Image>
         <Accomplishment name={'Fundamentals of digital marketing'} CredURL={'../google/dm.png'}></Accomplishment>
         <Accomplishment name={'Cloud Computing'} CredURL={'../google/cc.png'}></Accomplishment>
+      </Box>
       </div>
     </div>
   )

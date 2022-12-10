@@ -1,14 +1,15 @@
 import SchoolIcon from '@mui/icons-material/School';
-import heroStyles from '../styles/Hero.module.css'
+import { Typography } from '@mui/material';
+import { Box } from '@mui/system';
 const Education = () => {
   return (
-    <div className={heroStyles.card}>
-        
-        <h1>Education</h1>
+    <div>
+      <Box justifyContent="center" alignItems="center" display={"flex"}  m={1} sx={{ flexDirection: 'column' }}>
+        <Typography variant='h3' color='#5151ff' gutterBottom fontStyle={"italic"} fontFamily={"cursive"} >Education</Typography>
         <SchoolIcon></SchoolIcon>
-        <p>2015 - 2018 : Technological University of Havana CUJAE</p>
-        <p>2018 - 2021 : East University Higher Technological Institute</p>
-        
+        <Typography variant='body2' gutterBottom fontStyle={"italic"} fontFamily={"cursive"} textAlign="center" >2015 - 2018 : Technological University of Havana CUJAE</Typography>
+        <Typography variant='body2' gutterBottom fontStyle={"italic"} fontFamily={"cursive"} textAlign="center" >2018 - 2021 : East University Higher Technological Institute</Typography>
+      </Box>
     </div>
   )
 }

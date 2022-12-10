@@ -13,33 +13,34 @@ const boxDefault={
 const NavResp = () => {
   return (
     <div>
-      <Box
+      <Box position={"sticky"}
         m={1}
         display="flex"
         justifyContent="center"
         alignItems="center"
         sx={boxDefault}
+
       >
         <Link href={'/'} passHref>
-          <Button variant="contained" color="primary" sx={{ height: 40 }}>
+          <Button variant="outlined" color="primary" sx={{ height: 40 }}>
             {pages[0]}
           </Button>
         </Link>
 
         <Link href={'/projects'} passHref>
-          <Button variant="contained" color="primary" sx={{ height: 40 }}>
+          <Button variant="outlined" color="primary" sx={{ height: 40 }}>
             {pages[1]}
           </Button>
         </Link>
 
         <Link href={'/skills'} passHref>
-          <Button variant="contained" color="primary" sx={{ height: 40 }}>
+          <Button variant="outlined" color="primary" sx={{ height: 40 }}>
             {pages[2]}
           </Button>
         </Link>
 
         <Link href={'/accomplishments'} passHref>
-          <Button variant="contained" color="primary" sx={{ height: 40 }}>
+          <Button variant="outlined" color="primary" sx={{ height: 40 }}>
             {pages[3]}
           </Button>
         </Link>
