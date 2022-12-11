@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import NavResp from '../components/NavResp'
 import { Box } from '@mui/material'
-import { height, width } from '@mui/system'
+
 
 function MyApp({ Component, pageProps }) {
   return(

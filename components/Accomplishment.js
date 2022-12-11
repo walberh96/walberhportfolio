@@ -1,6 +1,6 @@
-import style from '../styles/Accomplishment.module.css'
+
 import Link from 'next/link' 
-import { Typography } from '@mui/material'
+import { Typography} from '@mui/material'
 
 const hoverSX={
   "&:hover": {
